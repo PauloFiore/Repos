@@ -1,0 +1,103 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Sans-Serif;
+    text-align: center;
+
+}
+
+
+header{
+    border: 2px solid rgba(24, 207, 0, 0.603);
+    background-color: honeydew;
+    color: mediumblue;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+ }
+ 
+
+
+section,footer{
+   border: 2px solid rgba(24, 207, 0, 0.603);
+}
+
+.first-section{
+    margin-top: 100px;
+}
+section{
+    overflow: hidden;
+    max-width: 80%;
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+
+div{
+    border: 2px solid rgb(3, 9, 92);
+    width: 20%;
+    /*min-width: 190px;*/
+    padding: 50px;
+    margin: 2.0%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+/* O querry serve para funções de resposividade do aparelho, o que vc pode ajustar a forma que vc testa*/
+/*
+@media(max-width:1200px){
+    div{
+        background-color:gray;
+        width: 50%; /* em um dispositivo com até 1200 px a div tera 50% do elemento pai.*/
+    /*    margin: 1%;   
+    }
+}
+@media(max-width:800px){
+    div{
+        background-color: blue;
+        width: 100%;
+        margin: 0.5%;  
+        }
+}
+@media(max-width:360px){
+    body{
+        background-color: greenyellow;
+    }
+}
+
+*/
+
+@media only screen and (max-width: 1200 px){
+    /*laptop resolution */
+    body {
+        background-color: cornflowerblue;
+    }
+}
+@media only screen and (max-width: 768 px){
+    /*tablet resolution */
+    body {background-color: lawngreen;
+    }
+}
+
+@media only screen and (max-width: 420 px){
+    /*mobiel resolution */
+    body {background-color: burlywood;
+    }
+}
+
+
+/*importante nota:
+celulares pequenos 320 px
+celulares padroes 480 px
+tabelts 768 px
+laptops pequenos 768px
+laptops padroes 1200px */
+
+

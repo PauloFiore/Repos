@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="Styles/W3.css" media="screen" />
+
+<body>
+    <title > Cadastro de usuários</title>
+    <div class="w3-container w3-border">
+      <h1>Cadastro de usuários</h1>
+         <br>
+             <br>
+                 <br>
+</div>
+    <div class="w3-container">
+    <form action="Cadastro.html" method="post">
+        <label for="nomeCompleto">nome completo</label><br>
+        <input type="text" name="nome completo" id="nomeCompleto" placeholder="insira seu nome completo" class="form-control" required>
+        <!-- <input type="submit" name="enviar"> esse modo não aceita formação css-->
+       
+        <br>
+        <label for="email">email</label><br>
+        <input type="email" name="email" id="email" class="form-control" required>
+             <br>
+        <label for="senha">senha</label ><br>
+        <input type="password" name="Senha" id="Senha" required>
+        
+        <br>
+        <p aling="left">para encontrar outro padroes acessar o w3c</p>
+        <label for="Cinema"> Voce foi ao Cinema</label><br>
+        <laber for="sim"><input type="radio" name="Cinema" id="sim" value="sim">sim</laber><br>
+        <label for="nao"><input type="radio" name="Cinema" id="nao" value="nao">nao</label><br>
+        <label for="GeneroFilme" >Selecione seu gerenro de filmes </label><br>
+        <label for="drama"><input type="checkbox" name="GeneroFilme"  id="drama"  value="drama">drama</label> <br>
+        <label for="ficcao"><input type="checkbox" name="GeneroFilme" id="ficcao" value="ficcao">ficcao</label><br>     
+        <label for="comedia"><input type="checkbox" name="GeneroFilme" id="comedia" value="comedia">comedia</label> <br>  
+        <label for="terror"><input type="checkbox" name="GeneroFilme" id="terror" value="terror">terror</label> <br>    
+        <label for="chatos"><input type="checkbox" name="GeneroFilme" id="chatos" value="chatos">chatos</label>  <br>   
+      
+        
+        <label for="sexo">informe seu sexo biologico </label><br>
+        <select name="Genero">
+            <option selected disabled>selecione uma opição</option><br>
+            <option value="Masculino">Masculino</option><br>
+            <option value="Feminino">Feminino</option><br>
+        </select> <br><br><br>
+        <div class="w3-container">
+        <h2>Area de comentários</n2>
+        </div>
+        <label for="comentarios">Insira seu comentário</label><br>
+        <textarea name="comentarios" id="comentarios" rows="20"cols="150">comentários da atividade.</textarea> <br>
+        <button type="reset">Limpar campos </button>  <br>  
+        <button type="submit">enviar</button>  <br>  
+    </form> 
+            </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous">
+    </script>
+        <br>
+</body>
+
+</html>

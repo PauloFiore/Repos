@@ -1,0 +1,98 @@
+
+// init configuration namespace if not exists already
+global.configuration = global.configuration || {};
+global.configuration.data = global.configuration.data || {};
+//
+//// global variables
+global.configuration.data.global = global.configuration.data.global || {};
+
+// breakpoints see: \app\resources\css\settings\_settings.scss
+global.configuration.data.global.bpXSmall = 320;
+global.configuration.data.global.bpSmall = 600;
+global.configuration.data.global.bpMedium = 768;
+global.configuration.data.global.bpLarge = 1024;
+global.configuration.data.global.bpXLarge = 1280;
+
+// google Single Marker Map
+global.configuration.data.markerImage = 'img/maps_marker.png';
+global.configuration.data.markerImageSecondary = 'img/maps_marker-fluor-blue.png'
+
+// max:
+global.configuration.data.global.bpXSmallMax = global.configuration.data.global.bpSmall - 1;
+global.configuration.data.global.bpSmallMax = global.configuration.data.global.bpMedium - 1;
+global.configuration.data.global.bpMediumMax = global.configuration.data.global.bpLarge - 1;
+global.configuration.data.global.bpLargeMax = global.configuration.data.global.bpXLarge - 1;
+global.configuration.data.global.bpXLargeMax = 10000;
+global.configuration.data.global.offCanvasWidth = 330;
+global.configuration.data.global.offCanvasWidthBpMedium = 430;
+
+
+
+//// i18n
+global.configuration.data.i18n = global.configuration.data.i18n || {};
+global.configuration.data.i18n.browserwarning = 'Your browser is outdated! The page might not be displayed perfectly in functionality and design.';
+// form validation
+global.configuration.data.i18n.validationDefaultMessage = 'This value seems to be invalid.';
+global.configuration.data.i18n.validationEmailMessage ='This value should be a valid email.';
+global.configuration.data.i18n.validationUrlMessage = 'This value should be a valid url.';
+global.configuration.data.i18n.validationNumberMessage = 'This value should be a valid number.';
+global.configuration.data.i18n.validationIntegerMessage = 'This value should be a valid integer.';
+global.configuration.data.i18n.validationDigitsMessage = 'This value should be digits.';
+global.configuration.data.i18n.validationAlphanumMessage = 'This value should be alphanumeric.';
+global.configuration.data.i18n.validationNotBlankMessage = 'This value should not be blank.';
+global.configuration.data.i18n.validationRequiredMessage = 'This value is required.';
+global.configuration.data.i18n.validationPatternMessage = 'This value seems to be invalid.';
+global.configuration.data.i18n.validationMinMessage = 'This value should be greater than or equal to %s.';
+global.configuration.data.i18n.validationMaxMessage = 'This value should be lower than or equal to %s.';
+global.configuration.data.i18n.validationRangeMessage = 'This value should be between %s and %s.';
+global.configuration.data.i18n.validationMinLengthMessage = 'This value is too short. It should have %s characters or more.';
+global.configuration.data.i18n.validationMaxLengthMessage = 'This value is too long. It should have %s characters or fewer.';
+global.configuration.data.i18n.validationLengthMessage = 'This value length is invalid. It should be between %s and %s characters long.';
+global.configuration.data.i18n.validationMinCheckMessage = 'You must select at least %s choices.';
+global.configuration.data.i18n.validationMaxCheckMessage = 'You must select %s choices or fewer.';
+global.configuration.data.i18n.validationCheckMessage = 'You must select between %s and %s choices.';
+global.configuration.data.i18n.validationEqualToMessage = 'This value should be the same.';
+// form step navigation
+global.configuration.data.i18n.formStepNavigationPrevious = 'Back';
+global.configuration.data.i18n.formStepNavigationToPrevious = 'Back to'; // step name will be added dynamically
+// stacked responsive table label separator
+global.configuration.data.i18n.stackedTableLabelSeparator = ':';
+// navigation overview
+global.configuration.data.i18n.navigationOverview = 'Overview';
+global.configuration.data.i18n.countrySelectorHint ='Please note: In some cases, content may not be fully translated and is therefore partly offered in English.';
+global.configuration.data.currentCountryId = 'Voith Global';
+// navigation hint language selector
+global.configuration.data.i18n.languageSelectorHint ='Please note: This site is only available in one language';
+
+// news teaser
+global.configuration.data.i18n.newsReadTimeLabel = 'read';
+global.configuration.data.i18n.newsWordCountLabel = 'words';
+// image database
+global.configuration.data.i18n.imageKeywordsLabel = 'Keywords';
+global.configuration.data.i18n.imageTypeLabel = 'Type';
+global.configuration.data.i18n.imageCreatedLabel = 'Created';
+global.configuration.data.i18n.imageCustomerLabel = 'Customer';
+global.configuration.data.i18n.imageDescriptionLabel = 'Description';
+// location list
+global.configuration.data.i18n.locationListCompanyNameLabel = 'Companyname';
+global.configuration.data.i18n.locationListGroupDivisionLabel = 'Division';
+global.configuration.data.i18n.locationListAddressLabel = 'Address';
+global.configuration.data.i18n.locationListRouteLabel = 'Route';
+
+// brightcove video configuration
+global.configuration.data.video = global.configuration.data.video || {};
+global.configuration.data.video.playerId = "HJlUaRig1b";
+global.configuration.data.video.accountId = "1393959378001";
+global.configuration.data.video.policyKey = 'BCpkADawqM2UF3GDDnqOdczLsX37LTZIr2I6Q19mXgIAflnSPMRUmVi0l2rwJe5vwzKYZrHJ3LsyOzZZ2aEE5L8e2eCuBqXYIJph8FUiJa9fhI4oWn8QM8uqjqm44YUl4Q_1h0bT7TP44SSa';
+global.configuration.data.video.playbackApiUrl = 'https://edge.api.brightcove.com/playback/v1';
+
+// datepicker date format
+global.configuration.data.datepicker = global.configuration.data.datepicker || {};
+global.configuration.data.datepicker.dateFormat = 'mm/dd/yyyy';
+
+// Hubpsot
+global.configuration.data.hubspot = {};
+global.configuration.data.hubspot.generalPortalId = '5069195';
+global.configuration.data.hubspot.generalFormId = '6e175b29-1ea7-4cef-bf24-ad5de394da01';
+global.configuration.data.hubspot.formsApiEndpoint = 'https://api.hsforms.com/submissions/v3/integration/submit/';
+

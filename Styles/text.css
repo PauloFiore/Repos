@@ -1,0 +1,88 @@
+div {
+    border: 1px solid black;
+}
+
+.h1 h1 {
+    margin-top: -10px;
+}
+h1, h2, h3, h4, h5 {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #2d4275;
+}
+.h1__overline, h1, h2, h3, h4, h5, h6 {
+    font-family: HelveticaNeue-Medium,Arial,sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+:-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) h1 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+user agent stylesheet
+:-webkit-any(article,aside,nav,section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+user agent stylesheet
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.h1 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+body {
+    font-family: HelveticaNeue-Light,Arial,sans-serif;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+    min-width: 320px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+html {
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
